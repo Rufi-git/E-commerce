@@ -16,5 +16,7 @@
     <body>
         @yield("products")
         @yield("create")
+        @yield("login")
+        @yield("register")
     </body>
 </html>

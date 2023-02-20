@@ -4,17 +4,17 @@
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
         <div class="container">
-            <a class="navbar-brand" href="#">Product List</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/create">Add</a>
-                </li>
-                <li class="nav-item">
-                <form action="/delete-prods" method="POST">
-                    @csrf
-                    <button type="submit"class="nav-link button">Mass Delete</button>
-                </li>
-            </ul>
+                <a class="navbar-brand" href="#">Product List</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/create">Add</a>
+                    </li>
+                    <li class="nav-item">
+                        <form action="/delete-prods" method="POST">
+                        @csrf
+                        <button type="submit"class="nav-link button bg-dark">Mass Delete</button>
+                    </li>
+                </ul>
         </div>
     </nav>
 </header>

@@ -1,24 +1,4 @@
 body{
-    background-color: black;
-    header{
-        .navbar{
-            .navbar-brand{
-                font-size: 30px;
-            }
-            .navbar-nav{
-                width: 20%;
-                display: flex;
-                justify-content: space-between;
-            }
-            .nav-item{
-                font-size: 20px;
-                .button{
-                    background: none;
-                    border: none;
-                }
-            }
-        }
-    }
     main {
         .wrapper {
             margin: 100px auto 0;

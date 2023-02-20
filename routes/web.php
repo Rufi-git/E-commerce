@@ -12,8 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', 'App\Http\Controllers\ProductController@index');
+Route::get('/', '\App\Http\Controllers\ProductController@index');
 Route::post('/', 'App\Http\Controllers\ProductController@store');
 Route::post('/delete-prods', 'App\Http\Controllers\ProductController@destroy');
 Route::get('/create', 'App\Http\Controllers\ProductController@create');
