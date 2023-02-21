@@ -11,7 +11,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "shopping-black-alpha.vercel.app",
+        "APP_URL": "https://shopping-rufi-git.vercel.app",
     
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
