@@ -1,8 +1,11 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.5.2","memory": 1024,
-        "maxDuration": 1000 }
+        "api/index.php": { 
+            "runtime": "vercel-php@0.5.2",
+            "memory": 1024,
+            "maxDuration": 1000 
+        }
 
     },
     "routes": [{
