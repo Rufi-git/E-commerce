@@ -11,12 +11,9 @@
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        @vite(['resources/sass/main.scss', 'resources/css/main.css', 'resources/sass/create.scss', 'resources/js/app.js'])
     </head>
     <body>
         @yield("products")
         @yield("create")
-        @yield("login")
-        @yield("register")
     </body>
 </html>
