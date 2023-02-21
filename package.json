@@ -430,6 +430,7 @@
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "shellwords": "^0.1.1",
+    "shopping": "github:Rufi-git/E-commerce",
     "side-channel": "^1.0.4",
     "signal-exit": "^3.0.7",
     "slash": "^3.0.0",
