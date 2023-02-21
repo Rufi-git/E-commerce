@@ -16,3 +16,5 @@ Route::get('/', '\App\Http\Controllers\ProductController@index');
 Route::post('/', 'App\Http\Controllers\ProductController@store');
 Route::post('/delete-prods', 'App\Http\Controllers\ProductController@destroy');
 Route::get('/create', 'App\Http\Controllers\ProductController@create');
+Route::get('encrypt', 'App\Http\Controllers\EncryptionController@encrypt');
+Route::get('decrypt', 'App\Http\Controllers\EncryptionController@decrypt');
