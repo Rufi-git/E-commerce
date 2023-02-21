@@ -11,7 +11,7 @@
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        @vite(['resources/sass/main.scss', 'resources/sass/main.css','resources/js/app.js', 'resources/sass/create.scss','resources/sass/create.css'])
+        @vite(['resources/sass/main.scss', 'resources/js/app.js', 'resources/sass/create.scss'])
     </head>
     <body>
         @yield("products")
