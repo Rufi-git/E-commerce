@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://shopping-rufi-git.vercel.app'),
+    'url' => env('APP_URL', 'https://shopping-black-alpha.vercel.app/'),
 
     'asset_url' => env('ASSET_URL'),
 
