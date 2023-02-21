@@ -11,7 +11,11 @@
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        @vite(['resources/sass/main.scss', 'resources/js/app.js', 'resources/sass/create.scss'])
+        @vite([
+    'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/build/assets/main-e3b314ba.css',
+    'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/js/app.js',
+    'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/sass/create.scss'
+    ])
     </head>
     <body>
         @yield("products")
