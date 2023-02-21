@@ -34,6 +34,7 @@
         }
     },
     "scripts": {
+        "deployVercel": "push-dir --dir=dist --branch=vercel --cleanup",
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
