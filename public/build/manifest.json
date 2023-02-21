@@ -1,0 +1,17 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-575acb37.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/create.scss": {
+    "file": "assets/create-793219b8.css",
+    "isEntry": true,
+    "src": "resources/sass/create.scss"
+  },
+  "resources/sass/main.scss": {
+    "file": "assets/main-e3b314ba.css",
+    "isEntry": true,
+    "src": "resources/sass/main.scss"
+  }
+}
