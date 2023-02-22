@@ -1,17 +1,17 @@
 {
-  "resources/js/app.js": {
-    "file": "assets/app-575acb37.js",
+  "public/build/assets/app-575acb37.js": {
+    "file": "assets/app-575acb37-859fc5d0.js",
     "isEntry": true,
-    "src": "resources/js/app.js"
+    "src": "public/build/assets/app-575acb37.js"
   },
-  "resources/sass/create.scss": {
-    "file": "assets/create-793219b8.css",
+  "public/build/assets/create-793219b8.css": {
+    "file": "assets/create-793219b8-793219b8.css",
     "isEntry": true,
-    "src": "resources/sass/create.scss"
+    "src": "public/build/assets/create-793219b8.css"
   },
-  "resources/sass/main.scss": {
-    "file": "assets/main-e3b314ba.css",
+  "public/build/assets/main-e3b314ba.css": {
+    "file": "assets/main-e3b314ba-e3b314ba.css",
     "isEntry": true,
-    "src": "resources/sass/main.scss"
+    "src": "public/build/assets/main-e3b314ba.css"
   }
 }
