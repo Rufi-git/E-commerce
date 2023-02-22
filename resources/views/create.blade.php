@@ -19,7 +19,6 @@
     <div class="container">
         <form action="/" method="POST">
             @csrf
-             <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="wrapper">
                 <div class="box">
                     <input type="text" name="sku" id="sku" disabled>

@@ -12,7 +12,7 @@
                     <li class="nav-item">
                         <form action="/delete-prods" method="POST">
                         @csrf
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        @method('DELETE')
                         <button type="submit"class="nav-link button bg-dark">Mass Delete</button>
                     </li>
                 </ul>
@@ -24,7 +24,6 @@
         <form action="/delete-prods" method="POST">
             <div class="container-fluid">
                 @csrf
-                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 @foreach($products as $product)
                     <label class="option_item">
                         <input type="checkbox" name="delete_id[{{$product['sku']}}]" class="checkbox" value="{{$product['sku']}}">
