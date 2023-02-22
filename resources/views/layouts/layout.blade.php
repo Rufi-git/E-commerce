@@ -10,9 +10,9 @@
         
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://github.com/Rufi-git/E-commerce/blob/main/public/build/assets/create-793219b8.css">
-        <link rel="stylesheet" type="text/css" href="https://github.com/Rufi-git/E-commerce/blob/main/public/build/assets/main-e3b314ba.css">
-        <script src="https://github.com/Rufi-git/E-commerce/blob/main/public/build/assets/app-575acb37.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/create-793219b8-793219b8.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/main-e3b314ba-e3b314ba.css') }}">
+        <script src="{{ asset('build/assets/app-575acb37-575acb37.js') }}"></script>
     </head>
     <body>
         @yield("products")
