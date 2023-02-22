@@ -13,7 +13,7 @@
 
         @vite([
             'public/build/assets/create-793219b8.css',
-        'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/js/app.js',
+            'public/build/assets/app-575acb37.js',
         'public/build/assets/main-e3b314ba.css'   
     ])
     </head>
