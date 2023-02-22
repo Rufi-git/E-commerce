@@ -12,9 +12,9 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         @vite([
-            'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/build/assets/main-e3b314ba.css'        ,
-            'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/js/app.js',
-            'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/sass/create.css'
+            'public/build/assets/create-793219b8.css',
+        'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/js/app.js',
+        'public/build/assets/main-e3b314ba.css'   
     ])
     </head>
     <body>

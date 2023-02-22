@@ -5,9 +5,9 @@ export default defineConfig({
   plugins: [
     laravel({
       input: [
-        'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/sass/main.css'        ,
+        'public/build/assets/create-793219b8.css',
         'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/js/app.js',
-        'https://e-commerce-3pkerg3mg-rufi-git.vercel.app/resources/sass/create.css'
+        'public/build/assets/main-e3b314ba.css'   
       ],
       refresh: true,
     }),
