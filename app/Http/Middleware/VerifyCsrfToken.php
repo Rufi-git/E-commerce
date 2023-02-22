@@ -14,13 +14,4 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         //
     ];
-
-    
-    protected function shouldPassThrough($request)
-{
-    return in_array($request->path(), [
-        'api/webhook',
-        'api/payment',
-    ]);
-}
 }
